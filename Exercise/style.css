@@ -1,0 +1,223 @@
+html {
+    scroll-behavior:smooth
+}
+.custom-container {
+    width: 100%;
+}
+#custom-col {
+    padding-right: 30px ;
+    padding-left: 30px ;
+}
+#custom-features-col {
+    padding-right: 30px ;
+    padding-left: 30px ;
+    min-height: 340px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.nav-container {
+    padding: 0px 30px;
+}
+#navbar-custom {
+    position: relative;
+    min-height: 95px;
+    margin-bottom: 0px;
+    border: 1px solid transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar-brand {
+    display: flex;
+    line-height: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.nav-logo {
+    height: auto;
+    width: 120px;
+}
+.hero-banner {
+    background:linear-gradient(90deg, rgba(0, 0, 0, 0.5) 47%, rgba(0, 0, 0, 0.5) 99%), url(./images/crosstrek1.jpg);
+    background-position: center 40%;
+    background-size: cover;
+    min-height: 450px;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+.hero-banner-left {
+    padding: 60px 0px;
+}
+.hero-banner-left article {
+    padding-right: 50px;
+    padding-bottom: 40px;
+}
+.banner-subheader {
+    font-size: 35px;
+    font-weight: lighter;
+}
+.custom-btn {
+    margin-top: 60px;
+    padding: 15px 30px;
+    color: #fff;
+    background: linear-gradient(90deg, #0257a8, #003f84);
+    border-radius: 5px;
+}
+.custom-btn:hover {
+    color: #fff;
+    text-decoration: none;
+    background: #0257a8;
+}
+.vehicle-details {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: #1d252c;
+    color: #fff;
+    padding: 30px 0px;
+}
+.pricing-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.price {
+    font-size: 25px;
+    font-weight: 500;
+}
+.mpg-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mpg {
+    font-size: 25px;
+    font-weight: 500;
+}
+.features-text {
+    background-color: #1d252c;
+    color: #fff;
+    min-height: 300px;
+    padding: 40px 0px;
+}
+.features-one-img {
+    background: url(./images/crosstrek2.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.features-two-img {
+    background: url(./images/crosstrek6.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.features-three-img {
+    background: url(./images/crosstrek5.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.features-four-img {
+    background: url(./images/crosstrek8.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.features-title {
+    font-size: 25px;
+    margin-top: -20px;
+}
+#footer {
+    padding: 90px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.footer-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-right a {
+    color: #000;
+    margin: 5px;
+}
+.footer-logo {
+  width: 200px;
+  height: auto;
+  margin-bottom: 20px;
+}
+#star {
+    color:rgb(228, 208, 27);
+}
+#half-star {
+  background: -webkit-linear-gradient(3600deg, rgb(228, 208, 27), rgb(255, 255, 255));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+@media (max-width: 767px) {
+    .nav-logo {
+        height: auto;
+        width: 80px;
+    }
+    .hero-banner-left {
+        text-align: center;
+    }
+    .banner-subheader {
+        font-size: 25px;
+    }
+    .hero-banner-left article {
+        padding-right: 0px;
+    }
+    .hero-banner-left h1 {
+        font-size: 30px;
+        padding-top: 230px;
+    }
+    .vehicle-details {
+        flex-direction: column;
+    }
+    .mpg-container {
+        margin-top: 25px;
+    }
+    #custom-features-col {
+        min-height: 200px;
+    }
+    .mobile-reverse {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    #footer {
+        flex-direction: column;
+    }
+    .footer-right {
+        margin-top: 25px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .hero-banner-left article {
+        width: 50%;
+    }
+    .features-text {
+        min-height: 300px;
+    }
+    #custom-features-col {
+        width: 50%;
+    }
+    .features-container {
+        display: flex;
+        flex-direction: row;
+    }
+}
